@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Innovators Club Registration</title>
+</head>
+<body>
+  <header>
+    <h1>🚀 Tech Innovators Club</h1>
+    <p>Join our community of future technology leaders and innovators. Gain hands-on experience through workshops, projects, and networking opportunities.</p>
+  </header>
+
+  <main>
+    <!-- Section 1: About Section with definition list for the Mission,Vision and Values -->
+    <section>
+      <h2>🌟 About Our Community</h2>
+      <dl>
+        <dt><strong>Our Mission</strong></dt>
+        <dd>To bridge the gap between academic learning and real-world tech applications through collaborative projects and industry partnerships.</dd>
+        
+        <dt><strong>Our Vision</strong></dt>
+        <dd>To cultivate the next generation of tech leaders who will drive digital transformation across industries.</dd>
+        
+        <dt><strong>Core Values</strong></dt>
+        <dd >
+          <ol type = "i" >
+            <li>Innovation</li>
+            <li>Collaboration</li>
+            <li>Continuous Learning</li>
+            <li>Ethical Technology</li></ol>
+        </dd>
+      </dl>
+
+      <!-- activity list with nested list -->
+      <h3>📅 Our Annual Programs:</h3>
+      <ul>
+        <li><strong>Technical Workshops</strong>
+          <ul>
+            <li>Full-Stack Web Development </li>
+            <li>IoT and Embedded Systems</li>
+            <li>Cloud Computing with AWS/Azure</li>
+            <li>Mobile App Development (Flutter/React Native)</li>
+          </ul>
+        </li>
+        <li><strong>Competitions</strong>
+          <ul>
+            <li>Annual Hackathon (48-hour coding marathon)</li>
+            <li>Tech Innovation Challenge</li>
+          </ul>
+        </li>
+        <li><strong>Career Development</strong>
+          <ul>
+            <li>Resume Workshops</li>
+            <li>Mock Technical Interviews</li>
+            <li>Industry Networking Events</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- section 2: Table -->
+    <section>
+      <h2>👥 Leadership Team</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Name</th>
+            <th>Major</th>
+            <th>Contact</th>
+            <th>Office Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>President</td>
+            <td>Gareth Bale</td>
+            <td>Computer Science</td>
+            <td>garethbale@gmail.com </td>
+            <td>Mon/Wed 2-4pm</td>
+          </tr>
+          <tr>
+            <td>VP of Technology</td>
+            <td>Jamal Musiala</td>
+            <td>Electrical Engineering</td>
+            <td>jamalmusiala@gmail.com</td>
+            <td>Tue/Thu 3-5pm</td>
+          </tr>
+          <tr>
+            <td>VP of Operations</td>
+            <td>Lionel Messi</td>
+            <td>Information Systems</td>
+            <td>lionelmessi@gmail.com</td>
+            <td>Fri 10am-12pm</td>
+          </tr>
+          <tr>
+            <td>Treasurer</td>
+            <td>Neymar Jr</td>
+            <td>Data Science</td>
+            <td>neymarjr@gmail.com</td>
+            <td>Mon/Fri 1-2pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!--Section 3: Media -->
+    <section>
+      <h2>📸 Our Tech Journey</h2>
+      <h3>Last Hackathon Highlights</h3>
+        <figure>
+         <img src="image1.jpg" 
+               alt="Students collaborating at hackathon" 
+              width="400" height = "300">
+         <figcaption>2024 Annual Hackathon - Winning team working on their AI solution</figcaption>
+        </figure>
+        <!-- audio -->
+      <h2>audio</h2>
+        <audio controls >
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        Your browser does not support audio playback.
+      </audio>
+         <!-- video -->
+      <h2>Watch Our video</h2>
+        <video width="400" controls>
+        <source src="vid1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p><em>"A Year in Code" - Following our members through their tech journey</em></p>
+    </section>
+
+    <!-- Section 4 Registration form Section -->
+    <section>
+      <h2>Join Us</h2>
+      <form>
+        <fieldset>
+          <p><strong>Personal Info</strong></p></br>
+          <label for="name"><strong>Name:</strong></label><br>
+          <input type="text" id="name" name="name" required minlength="3"><br><br>
+
+          <label for="email"><strong>Email: </strong></label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="dob"><strong>DOB:</strong></label><br>
+          <input type="date" id="dob" name="dob" required><br><br>
+
+          <label for="major"><strong>Major:</strong></label><br>
+          <select id="major" name="major" required>
+            <option value="">--Select--</option>
+            <option value="cs">Computer Science</option>
+            <option value="ce">Computer Engineering</option>
+            <option value="me">Mechanical Engineering</option>
+            <option value="ae">Aerospace Engineering</option>
+            <option value="ee">Electrical Engineering</option>
+            <option value="other">Other STEM Field</option>
+            <option value="non-stem">Non-STEM Field</option>
+          </select><br><br>
+
+          <p><strong>Skills & Interests</strong></p>
+          <p><strong>Programming Level:</strong></p>
+          <input type="radio" id="beg" name="level" value="beginner" required>
+          <label for="beg">Beginner</label><br>
+          <input type="radio" id="int" name="level" value="intermediate">
+          <label for="int">Intermediate</label><br>
+
+          <p><strong>Skills:</strong></p>
+          <input type="checkbox" id="web" name="skills" value="web">
+          <label for="web">Web Dev</label><br>
+          <input type="checkbox" id="cloud" name="skills" value="cloud">
+          <label for="cloud">Cloud</label><br>
+
+          <label for="goals">Goals:</label><br>
+          <textarea id="goals" name="goals" rows="3" cols="30"  required></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tech Club</p>
+  </footer>
+</body>
+</html>
